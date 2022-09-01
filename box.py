@@ -1,3 +1,4 @@
+
 class Box:
     def numBoxingWays(self, weight_range, max_weight):
         weight_list=[i for i in range(1,weight_range+1)]

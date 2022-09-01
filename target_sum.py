@@ -1,3 +1,4 @@
+
 from typing import List
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
@@ -25,4 +26,3 @@ assert so.findTargetSumWays([],-5)== 0
 print("Passed base cases")
 
 assert so.findTargetSumWays([1,1,1],1)== 3
-assert so.findTargetSumWays([1,1,1,1,1],3)== 5

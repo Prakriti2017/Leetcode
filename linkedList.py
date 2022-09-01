@@ -1,3 +1,4 @@
+
 class Node:
     def __init__(self,data=None,next=None):
         self.data=data
@@ -37,4 +38,3 @@ ll=LinkedList()
 ll.insert_first(30)
 ll.insert_last(20)
 ll.insert_last(10)
-ll.print()

@@ -1,3 +1,4 @@
+
 # Problem Description
 # Create a program, which, given a valid sequence of rolls for one line of American Ten-Pin Bowling, produces the total score for the game. Here are some things that the program will not do:
 
@@ -16,7 +17,7 @@
 # The game score is the total of all frame scores.
 # More info on the rules at: How to Score for Bowling
 
-[00000textinitalized]
+
 
 b=Bowling()
 
@@ -53,4 +54,3 @@ assert b3.get_score()==9
 
 # 10 = 
 # 10
-# 3
