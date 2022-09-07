@@ -14,8 +14,6 @@ class TwoPointers:
                     result.add((arr[i],arr[j],arr[k]))
                     k-=1
                     j+=1
-            i+=1
-
         return result
 
 t=TwoPointers()
